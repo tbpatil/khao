@@ -1,0 +1,75 @@
+.container {
+    position: relative;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('Main.jpg'); /* Replace with your background image */
+    background-size: cover;
+    filter:blur(8px);
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .company-name {
+    background-color: rgba(255, 255, 255, 0.7); /* Translucent white background */
+    padding: 100px 90px;
+    border-radius: 3px;
+    font-size: 90px;
+    text-align: center;
+  }
+  
+  .circle-image{
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
+    border-radius: 50%;
+    /* background-image: url('upload.jpg');  */
+    /* Replace with your circular image */ 
+    background-size: cover;
+    margin-top: 20px;
+  }
+      
+
+  
+  .textbox-left {
+    margin-top: 7%;
+    width: 75%;
+    max-width: 300px; /* Maximum width for the text box */
+    padding: 7px;
+    right: 60%;
+    background-color: rgba(255, 255, 255, 0.7); /* Translucent white background */
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: left;
+    color: black; /* Text color */
+    overflow-wrap: break-word; /* Line breaks within words */
+    white-space: pre-wrap;
+    float: left;
+  }
+
+  .container2{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .textbox-left + .textbox-left {
+    margin-top:30px;
+  }
+  
+  
+  /* Additional CSS styling as per your requirements */
+  

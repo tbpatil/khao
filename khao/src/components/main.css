@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./Main.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  h1 {
+    position: absolute;
+    width: 880px;
+    height: 5px;
+    left: 23%;
+    top: 25%;
+    font-family: 'Yaldevi Colombo Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #000206;
+  }
+
+  .box {
+    background-color: rgba(245, 245, 245, 0.61);
+    position: absolute;
+    width: 880px;
+    height: 30%;
+    left: 23%;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slide-up {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .arrow {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-image: url("./swipeup.jpg");
+    cursor: pointer; 
+  }
