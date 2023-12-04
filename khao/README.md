@@ -1,3 +1,5 @@
+This project was done to assisting students in maximising their grocery bills. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
